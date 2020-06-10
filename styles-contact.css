@@ -1,0 +1,205 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+	
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background: #404040; 
+	background-image: url("images/woodback.jpg");
+	background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+	
+}
+
+
+
+.right {
+	position: fixed;
+	right: 0px;
+	margin-top: 3%;
+	margin-bottom: 0;
+	width: 64%;
+	padding: 0px;
+	padding: 0%;
+	padding-top: 0px; 
+	padding-bottom: 28px;
+	
+ 	background: rgba(255, 255, 255, 0.9); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	
+  }
+
+  .left {
+	position: fixed;
+	left: 0px;
+	width: 20%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8); /*this uses opacity of 75% for the background color*/
+	padding-top: 3%;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+
+  }
+
+  #text {
+
+	position: fixed;
+	margin-left: 30%;
+	margin-top: 16%;
+	margin-bottom: 16%;
+	width: 60%;
+	
+	background: rgba(195, 202, 207, .9); /*this uses opacity of 75% for the background color*/
+	padding: 30px;
+	text-align: center;
+	
+
+  }
+
+
+   
+#logo {
+	
+	object-position: center top;
+	display: block;
+	margin: auto;
+	
+	
+	text-align: center;
+}
+
+
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	font-style: normal;
+	font-weight: 500;
+    margin: 0px auto 15px auto;
+    color: #3a594a;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.38em;
+	font-weight: 500;
+	font-style: normal;
+    line-height: 2;
+    color: #3a3a3a;
+    padding: 0px 0px;
+    margin: 0px auto 10px auto;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;	
+	font-size: .8em;
+    line-height: 1.5;
+	color: #3a3a3a;
+	text-align: justify;
+  text-justify: inter-word;
+}
+    
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	width: 100%; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	 /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+	text-align: center;
+	margin-top: 1.5em; /* This adds a bit of space above the nav element */
+	margin-bottom: 1.5em;
+	}
+	nav li{
+	display: block;
+	float: left;
+	width: 33.3% /* This allows the block level elements to display next to one another */
+	
+	}
+	nav a{
+		
+		display:block;
+        text-align: center;
+	
+	padding: 0px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 5%;
+	padding-bottom: 5%; /* This adds space around each of the links */
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+	
+	a{
+		color: #8c88a3;
+		text-decoration: none; /* This removes the underline */
+		font-weight: bold;
+		}
+		a:hover{
+		color: #3a3a3a;
+		background-color: rgba(117, 134, 146, .3);
+		}   
+		
+
